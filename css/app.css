@@ -1,0 +1,68 @@
+body{
+    direction: rtl;
+ 
+    height: 2000px;
+    background-color: rgb(56, 55, 55);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    padding: 40px 0;
+    background: #ff000000;
+    transition: all .4s ease-in-out
+}
+
+header.scroll{
+    padding: 10px;
+    background-color: #fff;
+    
+}
+
+header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+header ul li{
+    list-style: none;
+    margin: 0 0 0 20px;
+}
+
+header .nav a{
+    font-size: 18px;
+    color:#fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header.scroll .nav a{
+    font-size: 18px;
+    color:black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.banner{
+    background: url(../img/car-ge817abf52_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
